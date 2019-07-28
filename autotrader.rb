@@ -16,23 +16,28 @@ def default_params
     # make: "HONDA",
     # model: "CIVIC",
     # model: "CR-V",
+    make: "HYUNDAI",
+    "body-type": "SUV",
 
-
-    make: "TOYOTA",
+    # make: "TOYOTA",
     # model: "C-HR",
-    # model: "COROLLA",
-    model: "PRIUS",
+    # model: "RAV4",
+    # model: "PRIUS",
 
-    "year-from": 2010,
+    # model: "COROLLA",
+
+    "year-from": 2016,
+    # "year-from": 2017,
     # "year-to": 2014,
     # "year-from": 2018,
     # "year-from": 2018,
 
-    radius: 1500,
+    # radius: 100,
+    radius: 15,
     postcode: "e143uf",
-    onesearchad: "Used",
+    # onesearchad: "Used",
     transmission: "Automatic",
-    "writeoff-categories": "on",
+    # "writeoff-categories": "on",
     # "body-type": "SUV",
     # "fuel-type": "Hybrid%20–%20Petrol%2FElectric",
   }
@@ -51,10 +56,8 @@ end
 # end
 
 def match_spec(spec)
-  spec =~ /lane/i
-  # spec =~ /adaptive cruise control/i
+  spec =~ /lane|steering control|pre crash safety systems/i
   # spec =~ /lane|safety sense/i
-  # Electronic Power Steering
 end
 
 CARS_FOUND = []
@@ -103,7 +106,7 @@ def main
     end
     deriv_id = vehicle.f("derivativeId")
     year = vehicle.f("year")
-    miles = vehicle.f("keyFacts").f("mileage")
+    miles = vehicle["keyFacts"]["mileage"]
     year_manuf = vehicle.f("keyFacts").f("manufactured-year")
     car = {
       car: car_id,
@@ -141,11 +144,16 @@ def main
   # results.sort_by!{ |car| car.f("pricingDetail").f("primary") }
   # retults
 
-  puts "CARS FOUND:"
-  p CARS_FOUND
+  # puts "CARS FOUND:"
+  # p CARS_FOUND
 
-  puts "SORTED"
-  p CARS_FOUND.sort_by{ |car| price_to_i car.f(:price) }
+  puts "CARS FOUND (sorted):"
+  require 'yaml'
+  puts CARS_FOUND.sort_by{ |car| price_to_i car.f(:price) }.map{ |car|
+    new_car = car
+    new_car[:link] = " https://www.autotrader.co.uk/classified/advert/#{car[:car]}"
+    new_car
+  }.to_yaml
 end
 
 main
