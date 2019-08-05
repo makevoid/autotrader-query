@@ -56,7 +56,7 @@ end
 # end
 
 def match_spec(spec)
-  spec =~ /lane|steering control|pre crash safety systems/i
+  spec =~ /lane|toyota safety sense|steering control|pre crash safety systems/i
   # spec =~ /lane|safety sense/i
 end
 
