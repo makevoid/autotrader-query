@@ -1,5 +1,7 @@
 require_relative 'env'
 
+MAX_PRICE = 18_000
+
 def query(params:)
   params = Rack::Utils.build_query params
   url = "#{API_HOST}#{API_PATH}?#{params}"
@@ -17,11 +19,14 @@ def default_params
     # model: "CIVIC",
     # model: "CR-V",
 
-    make: "HYUNDAI",
-    "body-type": "SUV", # tucson really :D
+    # make: "HYUNDAI",
+    # "body-type": "SUV", # tucson really :D
 
     # make: "TOYOTA",
     # model: "C-HR",
+
+    make: "TOYOTA",
+    model: "PRIUS",
 
     # make: "KIA",
     # "body-type": "SUV",
@@ -157,11 +162,16 @@ def main
 
   puts "CARS FOUND (sorted):"
   require 'yaml'
-  puts CARS_FOUND.sort_by{ |car| price_to_i car.f(:price) }.map{ |car|
+  puts CARS_FOUND.sort_by{ |car|
+    price_to_i car.f(:price)
+  }.select{ |car|
+    price = price_to_i car.f(:price)
+    price < MAX_PRICE
+  }.map{ |car|
     new_car = car
-    new_car[:link] = " https://www.autotrader.co.uk/classified/advert/#{car[:car]}"
+    new_car[:link] = "https://www.autotrader.co.uk/classified/advert/#{car[:car]}"
     new_car
-  }.to_yaml
+  }.compact.to_yaml
 end
 
 main
