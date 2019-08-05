@@ -1,404 +1,5 @@
 CARS FOUND (sorted):
 ---
-- :car: '201907150081247'
-  :price: "£9,889"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (67 reg)
-  :miles: 1,712 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907150081247"
-- :car: '201907220334574'
-  :price: "£10,000"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2017 (66 reg)
-  :miles: 94,680 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907220334574"
-- :car: '201906038630378'
-  :price: "£10,795"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 12,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906038630378"
-- :car: '201905318510048'
-  :price: "£10,799"
-  :year: '2015'
-  :deriv_id: e3ad1b57773742efbe562a13594a5950
-  :year_manuf: 2016 (16 reg)
-  :miles: 21,496 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905318510048"
-- :car: '201906289517318'
-  :price: "£10,979"
-  :year: '2015'
-  :deriv_id: e3ad1b57773742efbe562a13594a5950
-  :year_manuf: 2016 (16 reg)
-  :miles: 23,157 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906289517318"
-- :car: '201906159048110'
-  :price: "£10,980"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2017 (67 reg)
-  :miles: 15,796 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906159048110"
-- :car: '201907230376480'
-  :price: "£10,995"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 56,381 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907230376480"
-- :car: '201906159033308'
-  :price: "£11,000"
-  :year: '2015'
-  :deriv_id: ae9a7c90ce9c4a488bbcc597e906537d
-  :year_manuf: 2016 (66 reg)
-  :miles: 60,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906159033308"
-- :car: '201903105745867'
-  :price: "£11,000"
-  :year: '2015'
-  :deriv_id: e3ad1b57773742efbe562a13594a5950
-  :year_manuf: 2017 (67 reg)
-  :miles: 35,899 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201903105745867"
-- :car: '201906149021844'
-  :price: "£11,200"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2016 (16 reg)
-  :miles: 26,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906149021844"
-- :car: '201907069791014'
-  :price: "£11,280"
-  :year: '2015'
-  :deriv_id: e3ad1b57773742efbe562a13594a5950
-  :year_manuf: 2016 (66 reg)
-  :miles: 35,126 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907069791014"
-- :car: '201907039668437'
-  :price: "£11,300"
-  :year: '2015'
-  :deriv_id: c2ef2f5d3f364cf9a81c6fb2a3af0cdd
-  :year_manuf: 2016 (65 reg)
-  :miles: 69,696 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907039668437"
-- :car: '201904116853848'
-  :price: "£11,390"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (65 reg)
-  :miles: 38,850 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904116853848"
-- :car: '201907119984621'
-  :price: "£11,494"
-  :year: '2017'
-  :deriv_id: 43a3ed8a8f8b4a3d8212c730c2738248
-  :year_manuf: 2018 (18 reg)
-  :miles: 10,022 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907119984621"
-- :car: '201905137903569'
-  :price: "£11,780"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 39,317 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905137903569"
-- :car: '201907150092025'
-  :price: "£11,880"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 38,458 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907150092025"
-- :car: '201907039668443'
-  :price: "£11,900"
-  :year: '2015'
-  :deriv_id: dffcff0c3c4e46238bcccc1e7b91dac7
-  :year_manuf: 2016 (16 reg)
-  :miles: 41,150 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907039668443"
-- :car: '201907260471639'
-  :price: "£11,995"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (65 reg)
-  :miles: 29,701 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907260471639"
-- :car: '201905218169369'
-  :price: "£11,995"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 28,282 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905218169369"
-- :car: '201905147920626'
-  :price: "£11,995"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (65 reg)
-  :miles: 25,045 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905147920626"
-- :car: '201903256258531'
-  :price: "£11,995"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (66 reg)
-  :miles: 34,133 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201903256258531"
-- :car: '201905168006720'
-  :price: "£12,000"
-  :year: '2017'
-  :deriv_id: 43a3ed8a8f8b4a3d8212c730c2738248
-  :year_manuf: 2018 (18 reg)
-  :miles: 17,641 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905168006720"
-- :car: '201907230371884'
-  :price: "£12,300"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 23,291 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907230371884"
-- :car: '201907250441911'
-  :price: "£12,399"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 33,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907250441911"
-- :car: '201906048662671'
-  :price: "£12,454"
-  :year: '2017'
-  :deriv_id: 43a3ed8a8f8b4a3d8212c730c2738248
-  :year_manuf: 2018 (18 reg)
-  :miles: 14,113 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906048662671"
-- :car: '201906048662665'
-  :price: "£12,454"
-  :year: '2017'
-  :deriv_id: 43a3ed8a8f8b4a3d8212c730c2738248
-  :year_manuf: 2018 (18 reg)
-  :miles: 16,373 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906048662665"
-- :car: '201906048662751'
-  :price: "£12,459"
-  :year: '2017'
-  :deriv_id: 43a3ed8a8f8b4a3d8212c730c2738248
-  :year_manuf: 2018 (18 reg)
-  :miles: 14,812 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906048662751"
-- :car: '201906018556140'
-  :price: "£12,495"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (66 reg)
-  :miles: 28,060 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906018556140"
-- :car: '201904157002742'
-  :price: "£12,495"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2017 (17 reg)
-  :miles: 15,634 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904157002742"
-- :car: '201906149025635'
-  :price: "£12,500"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2016 (65 reg)
-  :miles: 22,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906149025635"
-- :car: '201906068745450'
-  :price: "£12,671"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 13,177 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906068745450"
-- :car: '201907250454678'
-  :price: "£12,690"
-  :year: '2015'
-  :deriv_id: 37abf2c08e3c4c0c926ecf4e9f398ecf
-  :year_manuf: 2016 (16 reg)
-  :miles: 31,361 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907250454678"
-- :car: '201906219267391'
-  :price: "£12,750"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2017 (67 reg)
-  :miles: 35,288 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906219267391"
-- :car: '201907120000192'
-  :price: "£12,799"
-  :year: '2015'
-  :deriv_id: 6865340ac3a94ead905a454fcf5b2efc
-  :year_manuf: 2016 (16 reg)
-  :miles: 46,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907120000192"
-- :car: '201906259402333'
-  :price: "£12,799"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 23,501 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906259402333"
-- :car: '201906259402332'
-  :price: "£12,799"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 31,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906259402332"
-- :car: '201906138992195'
-  :price: "£12,845"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 17,215 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906138992195"
-- :car: '201906189121184'
-  :price: "£12,960"
-  :year: '2017'
-  :deriv_id: b664d3945b3e4ffa84c5ea94bdb83cfc
-  :year_manuf: 2018 (18 reg)
-  :miles: 13,483 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906189121184"
-- :car: '201903075643460'
-  :price: "£12,990"
-  :year: '2015'
-  :deriv_id: f454d052bc1d4cf0b43c14c9b1c3c57b
-  :year_manuf: 2016 (16 reg)
-  :miles: 87,020 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201903075643460"
-- :car: '201904257294195'
-  :price: "£12,990"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 29,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904257294195"
-- :car: '201904207175903'
-  :price: "£12,990"
-  :year: '2017'
-  :deriv_id: b664d3945b3e4ffa84c5ea94bdb83cfc
-  :year_manuf: 2018 (18 reg)
-  :miles: 9,945 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904207175903"
-- :car: '201905147931876'
-  :price: "£12,995"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 34,105 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905147931876"
-- :car: '201907089848276'
-  :price: "£13,000"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2016 (66 reg)
-  :miles: 15,418 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907089848276"
-- :car: '201907039686680'
-  :price: "£13,000"
-  :year: '2015'
-  :deriv_id: dffcff0c3c4e46238bcccc1e7b91dac7
-  :year_manuf: 2016 (16 reg)
-  :miles: 49,500 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907039686680"
-- :car: '201906048662756'
-  :price: "£13,082"
-  :year: '2017'
-  :deriv_id: b664d3945b3e4ffa84c5ea94bdb83cfc
-  :year_manuf: 2018 (18 reg)
-  :miles: 17,997 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906048662756"
-- :car: '201905027555671'
-  :price: "£13,200"
-  :year: '2017'
-  :deriv_id: b664d3945b3e4ffa84c5ea94bdb83cfc
-  :year_manuf: 2017 (67 reg)
-  :miles: 2,780 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905027555671"
-- :car: '201907120013629'
-  :price: "£13,295"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 20,471 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907120013629"
-- :car: '201906289488650'
-  :price: "£13,299"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2018 (18 reg)
-  :miles: 5,367 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906289488650"
-- :car: '201906159046259'
-  :price: "£13,300"
-  :year: '2015'
-  :deriv_id: 6865340ac3a94ead905a454fcf5b2efc
-  :year_manuf: 2016 (16 reg)
-  :miles: 37,285 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906159046259"
-- :car: '201904066683157'
-  :price: "£13,400"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (65 reg)
-  :miles: 10,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904066683157"
-- :car: '201907150073371'
-  :price: "£13,409"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 20,281 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907150073371"
-- :car: '201906149004577'
-  :price: "£13,449"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 20,323 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906149004577"
-- :car: '201907200286998'
-  :price: "£13,450"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2017 (17 reg)
-  :miles: 27,205 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907200286998"
-- :car: '201904106820158'
-  :price: "£13,485"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 17,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904106820158"
-- :car: '201907089858005'
-  :price: "£13,494"
-  :year: '2015'
-  :deriv_id: 6865340ac3a94ead905a454fcf5b2efc
-  :year_manuf: 2016 (65 reg)
-  :miles: 21,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907089858005"
-- :car: '201906269438381'
-  :price: "£13,495"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (16 reg)
-  :miles: 26,490 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906269438381"
-- :car: '201906279450783'
-  :price: "£13,599"
-  :year: '2015'
-  :deriv_id: c2ef2f5d3f364cf9a81c6fb2a3af0cdd
-  :year_manuf: 2016 (16 reg)
-  :miles: 36,455 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906279450783"
 - :car: '201902134882425'
   :price: "£13,699"
   :year: '2015'
@@ -406,41 +7,6 @@ CARS FOUND (sorted):
   :year_manuf: 2016 (65 reg)
   :miles: 31,069 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201902134882425"
-- :car: '201906018554735'
-  :price: "£13,749"
-  :year: '2015'
-  :deriv_id: dffcff0c3c4e46238bcccc1e7b91dac7
-  :year_manuf: 2016 (16 reg)
-  :miles: 34,608 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906018554735"
-- :car: '201906249356968'
-  :price: "£13,750"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (67 reg)
-  :miles: 26,500 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906249356968"
-- :car: '201907180212814'
-  :price: "£13,799"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2018 (18 reg)
-  :miles: 12,284 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907180212814"
-- :car: '201905258340275'
-  :price: "£13,799"
-  :year: '2015'
-  :deriv_id: e3ad1b57773742efbe562a13594a5950
-  :year_manuf: 2017 (67 reg)
-  :miles: 14,938 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905258340275"
-- :car: '201906048663691'
-  :price: "£13,899"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2017 (67 reg)
-  :miles: 8,378 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906048663691"
 - :car: '201902154966271'
   :price: "£13,913"
   :year: '2015'
@@ -448,55 +14,6 @@ CARS FOUND (sorted):
   :year_manuf: 2016 (66 reg)
   :miles: 24,882 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201902154966271"
-- :car: '201907230362284'
-  :price: "£13,980"
-  :year: '2015'
-  :deriv_id: ae9a7c90ce9c4a488bbcc597e906537d
-  :year_manuf: 2017 (17 reg)
-  :miles: 23,960 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907230362284"
-- :car: '201907129998241'
-  :price: "£13,990"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (17 reg)
-  :miles: 31,967 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907129998241"
-- :car: '201904257294976'
-  :price: "£13,990"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2016 (66 reg)
-  :miles: 14,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904257294976"
-- :car: '201907109914301'
-  :price: "£13,995"
-  :year: '2017'
-  :deriv_id: 2b3e93b78bc74965af782ff071dc9dd0
-  :year_manuf: 2018 (68 reg)
-  :miles: 1,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907109914301"
-- :car: '201906108869245'
-  :price: "£14,295"
-  :year: '2015'
-  :deriv_id: d90c31db45ca4eedaf17ee16df7bbdef
-  :year_manuf: 2018 (67 reg)
-  :miles: 35,800 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906108869245"
-- :car: '201903306445578'
-  :price: "£14,295"
-  :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2018 (18 reg)
-  :miles: 14,387 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201903306445578"
-- :car: '201905147915999'
-  :price: "£14,299"
-  :year: '2015'
-  :deriv_id: faddc2dc085c4ac5b1f116837c7ea63e
-  :year_manuf: 2016 (16 reg)
-  :miles: 12,378 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905147915999"
 - :car: '201906209202633'
   :price: "£14,299"
   :year: '2015'
@@ -504,20 +21,13 @@ CARS FOUND (sorted):
   :year_manuf: 2016 (16 reg)
   :miles: 19,602 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201906209202633"
-- :car: '201905248312842'
-  :price: "£14,371"
+- :car: '201905147915999'
+  :price: "£14,299"
   :year: '2015'
-  :deriv_id: c69835dc392e4163affbfb883eb320c9
-  :year_manuf: 2018 (18 reg)
-  :miles: 14,011 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905248312842"
-- :car: '201901304432198'
-  :price: "£14,385"
-  :year: '2015'
-  :deriv_id: 98959ea0c19a4097872c08c6f05038dd
-  :year_manuf: 2016 (66 reg)
-  :miles: 14,994 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201901304432198"
+  :deriv_id: faddc2dc085c4ac5b1f116837c7ea63e
+  :year_manuf: 2016 (16 reg)
+  :miles: 12,378 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201905147915999"
 - :car: '201904106818195'
   :price: "£14,400"
   :year: '2015'
@@ -525,34 +35,6 @@ CARS FOUND (sorted):
   :year_manuf: 2017 (67 reg)
   :miles: 40,559 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201904106818195"
-- :car: '201903055576771'
-  :price: "£14,450"
-  :year: '2015'
-  :deriv_id: 6865340ac3a94ead905a454fcf5b2efc
-  :year_manuf: 2017 (17 reg)
-  :miles: 43,578 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201903055576771"
-- :car: '201907160114126'
-  :price: "£14,480"
-  :year: '2015'
-  :deriv_id: ae9a7c90ce9c4a488bbcc597e906537d
-  :year_manuf: 2017 (17 reg)
-  :miles: 32,685 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907160114126"
-- :car: '201906138976581'
-  :price: "£14,495"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2017 (17 reg)
-  :miles: 11,097 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906138976581"
-- :car: '201907160135222'
-  :price: "£14,499"
-  :year: '2015'
-  :deriv_id: '09cf48e5f270450999697c063d0dbedc'
-  :year_manuf: 2017 (67 reg)
-  :miles: 33,569 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907160135222"
 - :car: '201906088808446'
   :price: "£14,500"
   :year: '2015'
@@ -560,90 +42,6 @@ CARS FOUND (sorted):
   :year_manuf: 2016 (16 reg)
   :miles: 21,908 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201906088808446"
-- :car: '201905147940874'
-  :price: "£14,550"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2017 (17 reg)
-  :miles: 18,408 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905147940874"
-- :car: '201903266293241'
-  :price: "£14,690"
-  :year: '2015'
-  :deriv_id: 6865340ac3a94ead905a454fcf5b2efc
-  :year_manuf: 2016 (65 reg)
-  :miles: 18,975 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201903266293241"
-- :car: '201904086760926'
-  :price: "£14,750"
-  :year: '2015'
-  :deriv_id: bdadd22cce194b02be8ab98c829896b2
-  :year_manuf: 2018 (18 reg)
-  :miles: 4,857 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904086760926"
-- :car: '201907029635708'
-  :price: "£14,750"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 7,538 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907029635708"
-- :car: '201906199188721'
-  :price: "£14,795"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (17 reg)
-  :miles: 24,866 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906199188721"
-- :car: '201904146972426'
-  :price: "£14,795"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 10,378 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904146972426"
-- :car: '201811202577630'
-  :price: "£14,859"
-  :year: '2017'
-  :deriv_id: 71ee221d86144b5eb44b49e7b53723f9
-  :year_manuf: 2018 (68 reg)
-  :miles: 3,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201811202577630"
-- :car: '201907049708986'
-  :price: "£14,880"
-  :year: '2017'
-  :deriv_id: 71ee221d86144b5eb44b49e7b53723f9
-  :year_manuf: 2019 (19 reg)
-  :miles: 788 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907049708986"
-- :car: '201906289494589'
-  :price: "£14,880"
-  :year: '2017'
-  :deriv_id: 7012df1bde134f3c996b9d9d5daa062a
-  :year_manuf: 2018 (18 reg)
-  :miles: 3,749 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906289494589"
-- :car: '201906269413371'
-  :price: "£14,899"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (67 reg)
-  :miles: 24,220 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906269413371"
-- :car: '201906088813406'
-  :price: "£14,900"
-  :year: '2015'
-  :deriv_id: 286888814851478c938ac1f4c5ae9da6
-  :year_manuf: 2016 (16 reg)
-  :miles: 40,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906088813406"
-- :car: '201904197138846'
-  :price: "£14,980"
-  :year: '2017'
-  :deriv_id: b46049ebf8374b4da90c77a03983b6e6
-  :year_manuf: 2018 (68 reg)
-  :miles: 3,821 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904197138846"
 - :car: '201809270912419'
   :price: "£14,980"
   :year: '2015'
@@ -658,34 +56,6 @@ CARS FOUND (sorted):
   :year_manuf: 2016 (66 reg)
   :miles: 14,520 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201907190241980"
-- :car: '201905198110416'
-  :price: "£14,995"
-  :year: '2015'
-  :deriv_id: 37abf2c08e3c4c0c926ecf4e9f398ecf
-  :year_manuf: 2016 (16 reg)
-  :miles: 9,300 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905198110416"
-- :car: '201904026541748'
-  :price: "£14,995"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (67 reg)
-  :miles: 12,456 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904026541748"
-- :car: '201906279484362'
-  :price: "£15,000"
-  :year: '2015'
-  :deriv_id: 5cc27da79f784dba89429d481990bc3c
-  :year_manuf: 2017 (67 reg)
-  :miles: 8,059 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906279484362"
-- :car: '201907039686678'
-  :price: "£15,000"
-  :year: '2015'
-  :deriv_id: ae9a7c90ce9c4a488bbcc597e906537d
-  :year_manuf: 2016 (66 reg)
-  :miles: 18,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907039686678"
 - :car: '201903145874910'
   :price: "£15,150"
   :year: '2015'
@@ -693,111 +63,6 @@ CARS FOUND (sorted):
   :year_manuf: 2016 (65 reg)
   :miles: 10,500 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201903145874910"
-- :car: '201907120000552'
-  :price: "£15,349"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (67 reg)
-  :miles: 16,339 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907120000552"
-- :car: '201905168010149'
-  :price: "£15,403"
-  :year: '2015'
-  :deriv_id: faddc2dc085c4ac5b1f116837c7ea63e
-  :year_manuf: 2016 (16 reg)
-  :miles: 9,912 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905168010149"
-- :car: '201906048662698'
-  :price: "£15,479"
-  :year: '2015'
-  :deriv_id: 37abf2c08e3c4c0c926ecf4e9f398ecf
-  :year_manuf: 2017 (17 reg)
-  :miles: 7,932 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906048662698"
-- :car: '201907210301781'
-  :price: "£15,490"
-  :year: '2017'
-  :deriv_id: 71ee221d86144b5eb44b49e7b53723f9
-  :year_manuf: 2019 (68 reg)
-  :miles: 895 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907210301781"
-- :car: '201907260487478'
-  :price: "£15,495"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 12,636 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907260487478"
-- :car: '201907250451477'
-  :price: "£15,495"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 13,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907250451477"
-- :car: '201907019597488'
-  :price: "£15,495"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 15,923 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907019597488"
-- :car: '201906279474816'
-  :price: "£15,495"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 14,084 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906279474816"
-- :car: '201906279474810'
-  :price: "£15,495"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 15,191 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906279474810"
-- :car: '201907180195041'
-  :price: "£15,499"
-  :year: '2017'
-  :deriv_id: 71ee221d86144b5eb44b49e7b53723f9
-  :year_manuf: 2018 (68 reg)
-  :miles: 4,645 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907180195041"
-- :car: '201906269413374'
-  :price: "£15,499"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (67 reg)
-  :miles: 14,900 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906269413374"
-- :car: '201906189152709'
-  :price: "£15,503"
-  :year: '2015'
-  :deriv_id: c8a87aafead54e859900edfac86b17f2
-  :year_manuf: 2017 (67 reg)
-  :miles: 21,000 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906189152709"
-- :car: '201907240398167'
-  :price: "£15,600"
-  :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2017 (67 reg)
-  :miles: 6,888 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907240398167"
-- :car: '201905318535184'
-  :price: "£15,845"
-  :year: '2017'
-  :deriv_id: c3bccd44129f43eb98cd79e047246676
-  :year_manuf: 2018 (67 reg)
-  :miles: 10,100 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905318535184"
-- :car: '201907180194008'
-  :price: "£15,879"
-  :year: '2017'
-  :deriv_id: b46049ebf8374b4da90c77a03983b6e6
-  :year_manuf: 2018 (68 reg)
-  :miles: 6,347 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907180194008"
 - :car: '201904267360471'
   :price: "£15,899"
   :year: '2015'
@@ -805,47 +70,129 @@ CARS FOUND (sorted):
   :year_manuf: 2016 (16 reg)
   :miles: 13,745 miles
   :link: " https://www.autotrader.co.uk/classified/advert/201904267360471"
-- :car: '201904257315790'
-  :price: "£15,995"
+- :car: '201904267333499'
+  :price: "£16,689"
   :year: '2015'
-  :deriv_id: c8a87aafead54e859900edfac86b17f2
+  :deriv_id: 1ed439b731e9432fae5b5e8d916560bb
   :year_manuf: 2016 (16 reg)
-  :miles: 23,182 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904257315790"
-- :car: '201905228231182'
-  :price: "£16,200"
-  :year: '2018'
-  :deriv_id: 83e46916a6554219add442d36e2b5ef2
-  :year_manuf: 2018 (68 reg)
-  :miles: 6,835 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201905228231182"
-- :car: '201907170161135'
-  :price: "£16,250"
+  :miles: 20,553 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201904267333499"
+- :car: '201904257312274'
+  :price: "£16,995"
   :year: '2015'
-  :deriv_id: 35eef09b60b1422b8d4902aa22f841cd
-  :year_manuf: 2018 (18 reg)
-  :miles: 4,122 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907170161135"
-- :car: '201907260487469'
-  :price: "£16,250"
+  :deriv_id: 6865340ac3a94ead905a454fcf5b2efc
+  :year_manuf: 2016 (65 reg)
+  :miles: 13,000 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201904257312274"
+- :car: '201907170174288'
+  :price: "£17,856"
+  :year: '2015'
+  :deriv_id: f454d052bc1d4cf0b43c14c9b1c3c57b
+  :year_manuf: 2016 (66 reg)
+  :miles: 38,650 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201907170174288"
+- :car: '201906199191782'
+  :price: "£17,980"
   :year: '2018'
-  :deriv_id: 83e46916a6554219add442d36e2b5ef2
-  :year_manuf: 2019 (68 reg)
-  :miles: 13,500 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201907260487469"
-- :car: '201906259386507'
-  :price: "£16,300"
-  :year: '2017'
-  :deriv_id: 71ee221d86144b5eb44b49e7b53723f9
-  :year_manuf: 2019 (19 reg)
-  :miles: 11 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201906259386507"
-- :car: '201904277375315'
-  :price: "£16,390"
-  :year: '2018'
-  :deriv_id: 83e46916a6554219add442d36e2b5ef2
+  :deriv_id: daa6e87edc7e4a7daacfcb2503e454e2
   :year_manuf: 2018 (68 reg)
-  :miles: 8,151 miles
-  :link: " https://www.autotrader.co.uk/classified/advert/201904277375315"
-- :car: '201907230359195'
-  :price: "£16,490"
+  :miles: 1,770 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201906199191782"
+- :car: '201907260471890'
+  :price: "£18,490"
+  :year: '2015'
+  :deriv_id: af4cc18340c440d9941873223d220ca3
+  :year_manuf: 2018 (68 reg)
+  :miles: 16,038 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201907260471890"
+- :car: '201907160116812'
+  :price: "£18,499"
+  :year: '2015'
+  :deriv_id: 25df6d078091455e8b31b45ec0b90db9
+  :year_manuf: 2017 (17 reg)
+  :miles: 14,528 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201907160116812"
+- :car: '201907160132126'
+  :price: "£19,985"
+  :year: '2015'
+  :deriv_id: af4cc18340c440d9941873223d220ca3
+  :year_manuf: 2018 (68 reg)
+  :miles: 6,071 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201907160132126"
+- :car: '201904267353429'
+  :price: "£21,995"
+  :year: '2017'
+  :deriv_id: f00c6c62c2fe487aaf31fdffdc84d2a1
+  :year_manuf: 2019 (19 reg)
+  :miles: 1,500 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201904267353429"
+- :car: '201906118888960'
+  :price: "£22,490"
+  :year: '2017'
+  :deriv_id: f00c6c62c2fe487aaf31fdffdc84d2a1
+  :year_manuf: 2019 (19 reg)
+  :miles: 2,500 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201906118888960"
+- :car: '201907029631609'
+  :price: "£23,990"
+  :year: '2018'
+  :deriv_id: daa6e87edc7e4a7daacfcb2503e454e2
+  :year_manuf: 2019 (19 reg)
+  :miles: 25 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201907029631609"
+- :car: '201905037586369'
+  :price: "£23,990"
+  :year: '2017'
+  :deriv_id: f00c6c62c2fe487aaf31fdffdc84d2a1
+  :year_manuf: 2019 (19 reg)
+  :miles: 50 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201905037586369"
+- :car: '201907099880904'
+  :price: "£24,495"
+  :year: '2018'
+  :deriv_id: abf0244c31e94b4f980aa108502f14f9
+  :year_manuf: 2019 (19 reg)
+  :miles: 50 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201907099880904"
+- :car: '201905178062235'
+  :price: "£24,495"
+  :year: '2018'
+  :deriv_id: 5f05972e17eb4531877777ddd350d041
+  :year_manuf: 2019 (19 reg)
+  :miles: 1,010 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201905178062235"
+- :car: '201905157984224'
+  :price: "£24,950"
+  :year: '2018'
+  :deriv_id: daa6e87edc7e4a7daacfcb2503e454e2
+  :year_manuf: 2019 (19 reg)
+  :miles: 10 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201905157984224"
+- :car: '201902275358248'
+  :price: "£24,990"
+  :year: '2018'
+  :deriv_id: 5f05972e17eb4531877777ddd350d041
+  :year_manuf: 2019 (19 reg)
+  :miles: 4,000 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201902275358248"
+- :car: '201905017496771'
+  :price: "£25,499"
+  :year: '2018'
+  :deriv_id: 2fb30b627e0b4c3ca719dc6791a35c61
+  :year_manuf: 2019 (68 reg)
+  :miles: 7,494 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201905017496771"
+- :car: '201905017513824'
+  :price: "£25,995"
+  :year: '2018'
+  :deriv_id: 2fb30b627e0b4c3ca719dc6791a35c61
+  :year_manuf: 2019 (19 reg)
+  :miles: 3,500 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201905017513824"
+- :car: '201905077703394'
+  :price: "£27,266"
+  :year: '2018'
+  :deriv_id: 2fb30b627e0b4c3ca719dc6791a35c61
+  :year_manuf: 2019 (19 reg)
+  :miles: 10 miles
+  :link: " https://www.autotrader.co.uk/classified/advert/201905077703394"

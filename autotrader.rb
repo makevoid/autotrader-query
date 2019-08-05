@@ -16,13 +16,21 @@ def default_params
     # make: "HONDA",
     # model: "CIVIC",
     # model: "CR-V",
-    make: "HYUNDAI",
-    "body-type": "SUV",
+
+    # make: "HYUNDAI",
+    # "body-type": "SUV", # tucson really :D
 
     # make: "TOYOTA",
     # model: "C-HR",
-    # model: "RAV4",
-    # model: "PRIUS",
+
+    # make: "KIA",
+    # "body-type": "SUV",
+
+    # make: "KIA",
+    # model: "SORENTO",
+
+    make: "TOYOTA",
+    model: "PRIUS",
 
     # model: "COROLLA",
 
@@ -56,7 +64,7 @@ end
 # end
 
 def match_spec(spec)
-  spec =~ /lane|steering control|pre crash safety systems/i
+  spec =~ /lane|steering control|pre crash safety systems|toyota safety sense/i
   # spec =~ /lane|safety sense/i
 end
 
