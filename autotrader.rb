@@ -17,8 +17,8 @@ def default_params
     # model: "CIVIC",
     # model: "CR-V",
 
-    # make: "HYUNDAI",
-    # "body-type": "SUV", # tucson really :D
+    make: "HYUNDAI",
+    "body-type": "SUV", # tucson really :D
 
     # make: "TOYOTA",
     # model: "C-HR",
@@ -29,12 +29,12 @@ def default_params
     # make: "KIA",
     # model: "SORENTO",
 
-    make: "TOYOTA",
-    model: "PRIUS",
+    # make: "TOYOTA",
+    # model: "PRIUS",
 
     # model: "COROLLA",
 
-    "year-from": 2016,
+    "year-from": 2015,
     # "year-from": 2017,
     # "year-to": 2014,
     # "year-from": 2018,
