@@ -1,6 +1,5 @@
 require_relative 'env'
 
-MAX_PRICE = 18_000
 
 def query(params:)
   params = Rack::Utils.build_query params
@@ -10,50 +9,6 @@ end
 
 def price_to_i(price)
   price[1..-1].sub(/,/, '').to_i
-end
-
-def default_params
-  {
-
-    make: "HONDA",
-    # model: "CIVIC",
-    model: "CR-V",
-
-    # make: "HYUNDAI",
-    # "body-type": "SUV", # tucson really :D
-
-    # make: "TOYOTA",
-    # model: "C-HR",
-
-    # make: "TOYOTA",
-    # model: "PRIUS",
-
-    # make: "KIA",
-    # "body-type": "SUV",
-
-    # make: "KIA",
-    # model: "SORENTO",
-
-    # make: "TOYOTA",
-    # model: "PRIUS",
-
-    # model: "COROLLA",
-
-    "year-from": 2015,
-    # "year-from": 2017,
-    # "year-to": 2014,
-    # "year-from": 2018,
-    # "year-from": 2018,
-
-    # radius: 100,
-    radius: 15,
-    postcode: "e143uf",
-    # onesearchad: "Used",
-    transmission: "Automatic",
-    # "writeoff-categories": "on",
-    # "body-type": "SUV",
-    # "fuel-type": "Hybrid%20–%20Petrol%2FElectric",
-  }
 end
 
 # LKAS = "Lane Keeping Assist"
@@ -70,6 +25,11 @@ end
 
 def match_spec(spec)
   spec =~ /lane|toyota safety sense|steering control|pre crash safety systems/i
+  # spec =~ /lane|safety sense/i
+end
+
+def match_spec2(spec)
+  spec =~ /cruise_control/i
   # spec =~ /lane|safety sense/i
 end
 
@@ -137,7 +97,11 @@ def main
     specs = resp.f("techSpecs")
     haz_autopilot_safety = specs.find{ |spec| spec["specName"] == "Safety" }.f("specs").find{ |spec| match_spec spec }
     haz_autopilot_driver_conv = specs.find{ |spec| spec["specName"] == "Driver Convenience" }.f("specs").find{ |spec| match_spec spec }
-    haz_autopilot = haz_autopilot_safety || haz_autopilot_driver_conv
+
+    haz_acc_safety = specs.find{ |spec| spec["specName"] == "Safety" }.f("specs").find{ |spec| match_spec2 spec }
+    haz_acc_driver_conv = specs.find{ |spec| spec["specName"] == "Driver Convenience" }.f("specs").find{ |spec| match_spec2 spec }
+
+    haz_autopilot = (haz_autopilot_safety || haz_autopilot_driver_conv) && (haz_acc_safety || haz_acc_driver_conv)
     puts "AUTOPILOT? > #{!!haz_autopilot} <"
     if haz_autopilot
       CARS_FOUND << car

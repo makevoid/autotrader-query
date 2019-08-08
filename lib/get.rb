@@ -14,6 +14,13 @@ class Get
     JSON.parse body
   end
 
+
+  def self.g(url)
+    new(url).get
+  end
+
+  # USE THIS CODE FOR MECHANIZE SEARCH
+
   # net-http get w/ user agent header
 
   # USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
@@ -42,9 +49,5 @@ class Get
   #   resp = Agent.get url
   #   resp.body
   # end
-
-  def self.g(url)
-    new(url).get
-  end
 
 end
