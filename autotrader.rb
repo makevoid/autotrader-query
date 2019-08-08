@@ -15,12 +15,12 @@ end
 def default_params
   {
 
-    # make: "HONDA",
+    make: "HONDA",
     # model: "CIVIC",
-    # model: "CR-V",
+    model: "CR-V",
 
-    make: "HYUNDAI",
-    "body-type": "SUV", # tucson really :D
+    # make: "HYUNDAI",
+    # "body-type": "SUV", # tucson really :D
 
     # make: "TOYOTA",
     # model: "C-HR",
