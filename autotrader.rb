@@ -19,14 +19,14 @@ def default_params
     # model: "CIVIC",
     # model: "CR-V",
 
-    # make: "HYUNDAI",
-    # "body-type": "SUV", # tucson really :D
+    make: "HYUNDAI",
+    "body-type": "SUV", # tucson really :D
 
     # make: "TOYOTA",
     # model: "C-HR",
 
-    make: "TOYOTA",
-    model: "PRIUS",
+    # make: "TOYOTA",
+    # model: "PRIUS",
 
     # make: "KIA",
     # "body-type": "SUV",
