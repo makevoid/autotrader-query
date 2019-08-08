@@ -29,7 +29,7 @@ def match_spec(spec)
 end
 
 def match_spec2(spec)
-  spec =~ /cruise_control/i
+  spec =~ /adaptive cruise control|smart adaptive speed control/i
   # spec =~ /lane|safety sense/i
 end
 
@@ -95,13 +95,17 @@ def main
     puts "REQ: #{url}"
     resp = Get.g url
     specs = resp.f("techSpecs")
+
     haz_autopilot_safety = specs.find{ |spec| spec["specName"] == "Safety" }.f("specs").find{ |spec| match_spec spec }
     haz_autopilot_driver_conv = specs.find{ |spec| spec["specName"] == "Driver Convenience" }.f("specs").find{ |spec| match_spec spec }
 
     haz_acc_safety = specs.find{ |spec| spec["specName"] == "Safety" }.f("specs").find{ |spec| match_spec2 spec }
     haz_acc_driver_conv = specs.find{ |spec| spec["specName"] == "Driver Convenience" }.f("specs").find{ |spec| match_spec2 spec }
 
-    haz_autopilot = (haz_autopilot_safety || haz_autopilot_driver_conv) && (haz_acc_safety || haz_acc_driver_conv)
+    haz_autopilot =
+      (haz_autopilot_safety || haz_autopilot_driver_conv) &&
+        (haz_acc_safety || haz_acc_driver_conv)
+
     puts "AUTOPILOT? > #{!!haz_autopilot} <"
     if haz_autopilot
       CARS_FOUND << car
