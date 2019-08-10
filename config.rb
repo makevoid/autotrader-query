@@ -19,7 +19,7 @@ module Config
       make: "TOYOTA",
       model: "PRIUS",
 
-      color: "Red",
+      # color: "Red",
 
       # not many corollas around here
       #
