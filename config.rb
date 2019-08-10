@@ -1,5 +1,6 @@
 module Config
-  MAX_PRICE = 18_000 # 18k upper limit, but ideally < 15k
+  puts "WARNING: set/remove MAX_PRICE in config.rb - it's currently set for prius at 14k, it won't find any other cars this way :D"
+  MAX_PRICE = 14_000 # budget for PRIUS
   # MAX_PRICE = 100_000 # infinity (at least for me) # debug only - TODO: delete this line
 
   def default_params
