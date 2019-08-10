@@ -19,6 +19,8 @@ module Config
       make: "TOYOTA",
       model: "PRIUS",
 
+      color: "Red",
+
       # not many corollas around here
       #
       # make: "TOYOTA",
@@ -38,7 +40,7 @@ module Config
 
       # model: "COROLLA",
 
-      "year-from": 2015,
+      "year-from": 2016,
 
       # radius: 100, # national
       radius: 15,
