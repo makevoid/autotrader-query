@@ -35,27 +35,36 @@ end
 
 CARS_FOUND = []
 
+def car_link_match(li:)
+  match = li.match /\/classified\/advert\/(\d+)\?/
+  match[1] if match
+end
+
+def car_links_match(links:)
+  links.map do |li|
+    car_link_match li: li
+  end.compact
+end
+
+Slowkogiri = -> (html) { Nokogiri::HTML html } # slow to compile at least (c exts)
+
 def query_page(page: 1)
   params  = default_params
   params[:page] = page
   body = query params: params
   puts body.f("refinements").f("count")
   html = body.f "html"
-  page = Nokogiri::HTML html
+  page = Slowkogiri.(html)
   links = page.search "a"
   links = links.select { |li| li["href"] =~ /\/classified\/advert\/20/ }
   car_links = links.map { |li| li["href"] }
-  car_ids = car_links.map do |li|
-    match = li.match /\/classified\/advert\/(\d+)\?/
-    match[1] if match
-  end.compact
-  car_ids.uniq!
-  next_page = true
-  car_ids
+  car_ids = car_links_match links: car_links
+  car_ids.uniq
 end
 
 def main
   car_ids = []
+  params = {}
   1.upto(50) do |idx|
     begin
       car_ids += query_page page: idx
@@ -105,6 +114,10 @@ def main
     haz_autopilot =
       (haz_autopilot_safety || haz_autopilot_driver_conv) &&
         (haz_acc_safety || haz_acc_driver_conv)
+
+    if default_params.fetch(:model) == "C-HR"
+      haz_autopilot = haz_autopilot_safety || haz_autopilot_driver_conv
+    end
 
     puts "AUTOPILOT? > #{!!haz_autopilot} <"
     if haz_autopilot
