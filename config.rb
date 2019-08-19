@@ -1,5 +1,5 @@
 module Config
-  MAX_PRICE = 18_000 # budget for PRIUS (15k limit but set at 20k to see other - TODO: remove )
+  MAX_PRICE = 17_000 # budget for PRIUS (15k limit but set at 20k to see other - TODO: remove )
   # MAX_PRICE = 100_000 # infinity (at least for me) # debug only - TODO: delete this line
 
   def default_params
@@ -43,9 +43,11 @@ module Config
       "year-from": 2016,
 
       # radius: 100, # national
-      radius: 25,
+      radius: 15,
       postcode: "E14 3RS",
       transmission: "Automatic",
+
+      "seller-type": "trade",
 
       # unused options:
       #
