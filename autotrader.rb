@@ -1,5 +1,6 @@
 require_relative 'env'
 
+# TODO: refactor this file
 
 def query(params:)
   params = Rack::Utils.build_query params
@@ -11,26 +12,17 @@ def price_to_i(price)
   price[1..-1].sub(/,/, '').to_i
 end
 
-# LKAS = "Lane Keeping Assist"
-# LKAS = "Lane Keep Assist System"
-
 # monkeypatch hash
 class Hash
   alias :f :fetch
 end
 
-# def match_spec(spec)
-#   spec == LKAS
-# end
-
 def match_spec(spec)
   spec =~ /lane|toyota safety sense|steering control|pre crash safety systems/i
-  # spec =~ /lane|safety sense/i
 end
 
 def match_spec2(spec)
   spec =~ /adaptive cruise control|smart adaptive speed control/i
-  # spec =~ /lane|safety sense/i
 end
 
 CARS_FOUND = []
@@ -80,6 +72,10 @@ def main
     url = "#{API_HOST}#{API_PATH_INIT}/#{car_id}"
     puts "REQ: #{url}"
     resp = Get.g url
+    unless resp["advert"]
+      puts "NO ADVERT (For PRICE)"
+      next
+    end
     price = resp.f("advert").f("price")
     vehicle = resp.f("vehicle")
     unless vehicle["derivativeId"]
@@ -115,9 +111,9 @@ def main
       (haz_autopilot_safety || haz_autopilot_driver_conv) &&
         (haz_acc_safety || haz_acc_driver_conv)
 
-    if default_params.fetch(:model) == "C-HR"
-      haz_autopilot = haz_autopilot_safety || haz_autopilot_driver_conv
-    end
+    # if default_params.fetch(:model) == "C-HR"
+    #   haz_autopilot = haz_autopilot_safety || haz_autopilot_driver_conv
+    # end
 
     puts "AUTOPILOT? > #{!!haz_autopilot} <"
     if haz_autopilot
@@ -125,21 +121,6 @@ def main
     end
     puts "\n\n"
   end
-
-  # /json/fpa/initial/201906219261925
-  #
-  # 0fe1c813d6434299aba501bbc63c1b9c
-
-  # puts "Results:"
-  # # puts results.to_yaml
-  # results = results.f "listings"
-  # # puts results.to_yaml
-  # results.select!{ |car| car.f("features").include? LKAS }
-  # results.sort_by!{ |car| car.f("pricingDetail").f("primary") }
-  # retults
-
-  # puts "CARS FOUND:"
-  # p CARS_FOUND
 
   puts "CARS FOUND (sorted):"
   require 'yaml'
