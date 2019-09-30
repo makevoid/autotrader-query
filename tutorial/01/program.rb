@@ -38,7 +38,6 @@ URL = "https://www.autotrader.co.uk/results-car-search"
 page   = 0
 params = "page=#{page}"
 url    = "#{API_HOST}#{API_PATH}?#{params}"
-body = get url
-html = body.fetch "html"
-
+resp = get url # json response
+html = resp.fetch "html" # containing HTML (weird :D)
 dom = Nokogiri::HTML html
