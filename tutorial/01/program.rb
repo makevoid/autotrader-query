@@ -97,18 +97,32 @@ require 'json'
 
 # let's define a new function:
 
-def get
+def get(url)
   uri  = URI url
   resp = Net::HTTP.get_response uri
   body = resp.body
   JSON.parse body
 end
 
-URL = "https://www.autotrader.co.uk/results-car-search"
+Get = (body) -> {
+  uri  = URI url
+  resp = Net::HTTP.get_response uri
+  body = resp.body
+  JSON.parse body
+}
+
+# -----
+
+API_HOST = "https://www.autotrader.co.uk"
+SEARCH_URL = "#{API_HOST}/results-car-search"
 
 page   = 0
 params = "page=#{page}"
-url    = "#{API_HOST}#{API_PATH}?#{params}"
-resp = get url # json response
-html = resp.fetch "html" # containing HTML (weird :D)
-dom = Nokogiri::HTML html
+url    = "#{API_HOST}#{SEARCH_URL}?#{params}"
+resp   = get url # json response
+html   = resp.fetch "html" # containing HTML (weird :D)
+dom    = Nokogiri::HTML html
+
+# dom.search()...
+
+# -----
