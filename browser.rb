@@ -2,8 +2,8 @@ require 'yaml'
 
 search_name = "prius_white"
 
-chrome = "/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome" # osx
-# chrome = "google-chrome" # linux
+#chrome = "/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome" # osx
+ chrome = "google-chrome" # linux
 
 cars = YAML::load_file"./found_#{search_name}.yml"
 cars.each_with_index do |car, idx|
