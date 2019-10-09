@@ -82,6 +82,10 @@ irb(main):011:0> JSON
 
 
 
+# ok now finally let's head to our favourite editor
+
+# you can use whichever editor you prefer, vim, atom, vscode, sublime text, etc...
+
 # 2.
 
 # procedural ruby (in this tutorial we're going to see how to build a simple program with procedural ruby)
@@ -97,32 +101,18 @@ require 'json'
 
 # let's define a new function:
 
-def get(url)
+def get
   uri  = URI url
   resp = Net::HTTP.get_response uri
   body = resp.body
   JSON.parse body
 end
 
-Get = (body) -> {
-  uri  = URI url
-  resp = Net::HTTP.get_response uri
-  body = resp.body
-  JSON.parse body
-}
-
-# -----
-
-API_HOST = "https://www.autotrader.co.uk"
-SEARCH_URL = "#{API_HOST}/results-car-search"
+URL = "https://www.autotrader.co.uk/results-car-search"
 
 page   = 0
 params = "page=#{page}"
-url    = "#{API_HOST}#{SEARCH_URL}?#{params}"
-resp   = get url # json response
-html   = resp.fetch "html" # containing HTML (weird :D)
-dom    = Nokogiri::HTML html
-
-# dom.search()...
-
-# -----
+url    = "#{API_HOST}#{API_PATH}?#{params}"
+resp = get url # json response
+html = resp.fetch "html" # containing HTML (weird :D)
+dom = Nokogiri::HTML html
