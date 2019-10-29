@@ -1,6 +1,6 @@
 require_relative 'env'
 
-# TODO: refactor this file
+# TODO: refactor this file, please :D
 
 def query(params:)
   params = Rack::Utils.build_query params
@@ -121,15 +121,17 @@ def main
     end
     puts "\n\n"
   end
+  
+  SearchLimitCarPrice = -> (car) {
+    price = price_to_i car.f(:price)
+    price < MAX_PRICE
+  }
 
   puts "CARS FOUND (sorted):"
   require 'yaml'
-  puts CARS_FOUND.sort_by{ |car|
+  puts CARS_FOUND.sort_by{ |car| # TODO: do the same refactoring to .select() ( SearchLimitCarPrice ), extract in a function each one so at the end you will be able to do: `sort_by(&f1).select(&f2).map(&f3)`
     price_to_i car.f(:price)
-  }.select{ |car|
-    price = price_to_i car.f(:price)
-    price < MAX_PRICE
-  }.map{ |car|
+  }.select(&SearchLimitCarPrice).map{ |car|
     new_car = car
     new_car[:link] = "https://www.autotrader.co.uk/classified/advert/#{car[:car]}"
     new_car
